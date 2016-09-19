@@ -1,1 +1,9 @@
 /*main.css*/
+
+.parallax img {
+	display: block;
+}
+
+.parallax-container.small {
+	height: 50px;
+}
