@@ -3,7 +3,16 @@
 .parallax img {
 	display: block;
 }
-
+.parallax-container.first {
+	background-image: url("../img/nutrient_background_pattern.png");
+}
+.parallax.first_box {
+	position: initial;
+}
 .parallax-container.small {
 	height: 50px;
+}
+#cute_food {
+	height: 100%;
+	width: 100%;
 }
