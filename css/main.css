@@ -9,10 +9,21 @@
 .parallax.first_box {
 	position: initial;
 }
+#main_heading{
+	text-align: center;
+	margin-top: 15%;
+}
+
 .parallax-container.small {
 	height: 50px;
 }
 #cute_food {
 	height: 100%;
 	width: 100%;
+}
+.landing_page_section_header {
+	text-align: center;
+}
+.landing_page_section_body {
+	text-align: center;
 }
