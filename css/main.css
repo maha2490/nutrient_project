@@ -1,5 +1,24 @@
 /*main.css*/
 
+@import 'https://fonts.googleapis.com/css?family=Maitree|Quicksand';
+
+/*_PRESETS________________________________________________________________*/
+
+* h1,
+h2,
+h3, 
+h4, 
+h5,
+h6 {
+	font-family: 'Quicksand', sans-serif;
+}
+* p {
+	font-family: 'Maitree', serif;
+	font-weight: 200;
+}
+
+/*_______________________________________________________________________*/
+
 .parallax img {
 	display: block;
 }
@@ -12,15 +31,14 @@
 #main_heading{
 	text-align: center;
 	margin-top: 6%;
+}#nutriknow_main_heading {
+	letter-spacing: 5px;
 }
-
+/*_______________________________________________________________________*/
 .parallax-container.small {
 	height: 50px;
 }
-#cute_food {
-	height: 100%;
-	width: 100%;
-}
+
 .landing_page_section_header {
 	text-align: center;
 }
