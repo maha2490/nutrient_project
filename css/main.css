@@ -3,7 +3,6 @@
 @import 'https://fonts.googleapis.com/css?family=Maitree|Quicksand';
 
 /*_PRESETS________________________________________________________________*/
-
 * h1,
 h2,
 h3, 
@@ -18,7 +17,6 @@ h6 {
 }
 
 /*_______________________________________________________________________*/
-
 .parallax img {
 	display: block;
 }
@@ -31,9 +29,16 @@ h6 {
 #main_heading{
 	text-align: center;
 	margin-top: 6%;
-}#nutriknow_main_heading {
+}
+#nutriknow_main_heading {
+	font-size: 6em;
 	letter-spacing: 5px;
 }
+#cute_food {
+	height: 100%;
+ 	width: 100%;
+}
+
 /*_______________________________________________________________________*/
 .parallax-container.small {
 	height: 50px;
