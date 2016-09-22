@@ -72,8 +72,14 @@ h6 {
 }
 
 /*_______________________________________________________________________*/
+.parallax-container.xsmall {
+	height: 15px;
+}
 .parallax-container.small {
 	height: 75px;
+}
+.parallax-container.medium {
+	height: 100px;
 }
 .section.b,
 .section.c {
