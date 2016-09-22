@@ -10,6 +10,7 @@ h4,
 h5,
 h6 {
 	font-family: 'Quicksand', sans-serif;
+	text-transform: lowercase;
 	color: #616163;
 }
 * p {
@@ -99,8 +100,13 @@ h6 {
     font-family: 'Quicksand', sans-serif;
     text-transform: lowercase;
     font-size: 1.5em;
-    width: 16%;
+    width: 14%;
     margin-top: 3%;
     margin-left: 42%;
-};
- 
+}
+footer.page-footer {
+	margin-top: 0;
+	background-color: #ffbfa0;
+	font-family: 'Quicksand', sans-serif;
+	text-transform: lowercase;
+ }
