@@ -103,9 +103,6 @@ h6 {
     text-transform: lowercase;
     font-size: 1.5em;
     color: #E0FFFF;
-    font-family: 'Quicksand', sans-serif;
-    text-transform: lowercase;
-    font-size: 1.5em;
     width: 14%;
     margin-top: 3%;
     margin-left: 42%;
@@ -114,5 +111,48 @@ footer.page-footer {
 	margin-top: 0;
 	background-color: #ffbfa0;
 	font-family: 'Quicksand', sans-serif;
-	text-transform: lowercase;
  }
+
+/*_LANDING PAGE MEDIA QUERIES________________________________________________________*/
+@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 500px) {
+	.section.b,
+	.section.c {
+		height: 300px;
+		width: 100vw;
+	}
+	.parallax-container.small {
+		height: 50px;
+	}
+	.parallax-container.medium {
+		height: 75px;
+	}
+	#nutriknow_main_heading {
+		font-size: 3.7em;
+	}
+	#main_heading p {
+		font-size: 119%;
+	}
+	.landing_page_section_header {
+		font-size: 2.8em;
+		margin-top: 10%;
+    	margin-bottom: 8%;
+	}
+	.landing_page_section_body {
+		text-align: center;
+    	font-size: 1em;
+    	line-height: 175%;
+    	padding-left: 5%;
+    	padding-right: 5%;	
+    }
+    .btn {
+    	width: 36%;
+    	margin-left: 31%;
+    }
+    footer.page-footer {
+		font-size: 1em;
+ 	}
+ 	.container {
+ 		width: 97%;
+ 	}
+}
